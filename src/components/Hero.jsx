@@ -14,7 +14,7 @@ const Hero = ({heading}) => {
                     <li className=''>para</li>
                 </ul>
                 <div>
-                    <p>realprise</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet, officia tempora aliquid labore dolores fuga aut magni, totam eos molestias ipsam iste! Nemo beatae nam, quos modi dolore provident tenetur, aliquam, dolorum temporibus consequuntur atque nisi asperiores distinctio.</p>
                     <p>saleprise</p>
                 </div>
             </div>
