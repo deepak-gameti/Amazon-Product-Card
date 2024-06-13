@@ -26,7 +26,9 @@ const Hero = ({ card }) => {
                             </ul>
                         </div>
                         <div className="bg-yellow-500 p-4 flex items-center justify-around font-bold text-2xl select-none">
-                            <span className="sale text-gray-800 line-through relative">{ele.prise}</span>
+                            {ele.prise !== discount && (
+                                <span className="sale text-gray-800 line-through relative">{ele.prise}</span>
+                            )}
                             <span className="sale relative">{formateDiscount}</span>
                         </div>
                     </div>
